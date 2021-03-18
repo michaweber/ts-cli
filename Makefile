@@ -1,10 +1,7 @@
-deps:
-	dep ensure
-
 test:
 	go test -v -bench=.
 
-all: deps
+all: 
 	go build -v -o ts-cli
 
 clean:
